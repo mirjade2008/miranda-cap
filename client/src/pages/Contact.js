@@ -1,5 +1,7 @@
 import React from 'react'
 import '../styles/Contact.css';
+// import LionImg from '../img/Zoo-lion.jpg';
+import BengalImg from '../img/BengalCat.jpg';
 
 
 
@@ -30,7 +32,10 @@ class App extends React.Component {
             <textarea className="form-control" rows="5" value={this.state.message} onChange={this.onMessageChange.bind(this)} />
           </div>
           <button type="submit" className="btn btn-primary">Submit</button>
+        
         </form>
+        <img src={ BengalImg } alt='cat'></img>
+       
       </div>
     );
   }
@@ -52,8 +57,6 @@ class App extends React.Component {
 }
 
 export default App;
-
-
 
 
 // function Contact() {

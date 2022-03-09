@@ -1,24 +1,44 @@
 .about-heading {
-    background-color: lightgray;
-    font-size: 60px;
+    background-color: lightgrey;
+    font-size: 50px;
+    color: black;
+    
 }
 
 
 
 .heading {    
+    text-align: center;
     color: maroon;
-    font-size: 28px;
+    font-size: 24px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: lightyellow;
+    background-color: peachpuff;
     margin-top: 0%;
+    margin-bottom: 0%;
+    border-style: dotted;
+
+
+}
+
+.heading-two {
+    color: maroon;
+    font-size: 24px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: burlywood;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    border-style: dotted;
 
 }
 
 
 .img {
     margin-top: 0%;
-    height: 90%;
+    height: 60%;
     width: 100%;
+    border-style:dashed;
+  
     
     
 }
+

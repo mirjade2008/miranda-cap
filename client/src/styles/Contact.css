@@ -1,15 +1,26 @@
 .App {
     margin-top: 0px;
-    /* background-position: ; */
+    background-color: black;
 }
 
 .form-group {
     
-    background-color: lightgray;
+    background-color: orangered;
     height: 100px;
     width: 100%;
 }
 
 .textarea {
     font-size: larger;
+}
+
+.form-group {
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 650;
+    font-style: italic;
+}
+
+.btn btn-primary {
+   
 }
