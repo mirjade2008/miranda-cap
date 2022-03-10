@@ -1,7 +1,7 @@
 import React from 'react'
 import '../styles/Contact.css';
 // import LionImg from '../img/Zoo-lion.jpg';
-import BengalImg from '../img/BengalCat.jpg';
+// import BengalImg from '../img/BengalCat.jpg';
 
 
 
