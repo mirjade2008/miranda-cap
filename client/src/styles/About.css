@@ -1,5 +1,5 @@
 .about-heading {
-    background-color: lightgrey;
+    background-color: ;
     font-size: 50px;
     color: black;
     
@@ -9,19 +9,16 @@
 
 .heading {    
     text-align: center;
-    color: maroon;
+ 
     font-size: 24px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: peachpuff;
-    margin-top: 0%;
-    margin-bottom: 0%;
-    border-style: dotted;
-
-
+    background-color: 
+    
+   
 }
 
 .heading-two {
-    color: maroon;
+    color: rgb(210,0,51);
     font-size: 24px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: burlywood;
@@ -32,12 +29,28 @@
 }
 
 
+h2 {
+    font-size: xx-large;
+}
+
 .img {
     margin-top: 0%;
-    height: 60%;
-    width: 100%;
-    border-style:dashed;
-  
+    height: 80%;
+    width: 48%;
+    border-style: dashed;
+    margin-left: 1%;
+    background-color: azure;
+    object-position: center top;
     
     
+}
+
+body {
+    background-color: #FF5A00;
+}
+
+
+
+.card-title {
+    text-align: center;
 }

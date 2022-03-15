@@ -1,7 +1,8 @@
 import React from 'react'
 import '../styles/Contact.css';
 // import LionImg from '../img/Zoo-lion.jpg';
-// import BengalImg from '../img/BengalCat.jpg';
+import BengalImg from '../img/Bengal-fans.jpg';
+import PrettyImg from '../img/botanical-garden.jpg';
 
 
 
@@ -34,7 +35,7 @@ class App extends React.Component {
           <button type="submit" className="btn btn-primary">Submit</button>
         
         </form>
-        <img src={ BengalImg } alt='cat'></img>
+        <img src={ PrettyImg } alt='cat'></img>
        
       </div>
     );

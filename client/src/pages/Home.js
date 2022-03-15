@@ -5,27 +5,31 @@ import Navbar from './Navbar';
 // import { SliderData } from './components/SliderData';
 import Slideshow from '../components/ImageSlider';
 import { Card, Button } from 'react-bootstrap';
-import PlacesImg from '../img/places-to-stay.jpg';
-import ThingsImg from '../img/things-to-do.jpg';
+import HotelsImg from '../img/hotels.webp';
 import EatImg from '../img/Eat-&-drink.jpg';
-import TripImg from '../img/trip-ideas.jpg';
+import TripImg from '../img/tripMuseum.jpg';
+import TrainImg from '../img/dinnerTrain.jpg';
 import { FaNs8 } from 'react-icons/fa';
 import CincyImg from '../img/Cincy-at-night.jpg';
 import PlayImg from '../img/Casino.png';
 import FanImg from '../img/Bengal-fans.jpg';
 import ZooImg from '../img/Cincy-zoo.jpg';
+import WineTourImg from '../img/wine-tour.jpg';
+import HardRockImg from '../img/Hard-Rock-Cafe.jpg';
 import '../styles/Home.css';
 
 
 const Home = () =>{
   return (
-    <div>    
+    <div class= 'container'>    
     <h1 className='about-heading'>Join the Queen City for your next adventure!</h1>
     <img src={CincyImg} alt="mypic" className='img'/>  
     <img src={GABP} alt="mypic" className='img'/>
+    <img src={WineTourImg} alt="mypic" className='img'/>
+    <img src={HardRockImg} alt="mypic" className='img'/>
 
 
-      <div className='cards'>
+      <div className='cards' class='container'>
         <Card style={{ width: '24rem' }} />
       <Card.Img variant="top" src={ZooImg} alt=''/>
       <Card.Body> 
@@ -35,11 +39,12 @@ const Home = () =>{
         </Card.Text>
         <Button variant="primary" className='button'>Check It Out</Button>
       </Card.Body>
+      
       </div>
     
-      <div className='cards'>
+      <div className='cards' class='container'>
     <Card style={{ width: '24rem' }}>
-      <Card.Img variant="top" src={PlacesImg} alt='' />
+      <Card.Img variant="top" src={HotelsImg} alt='' />
       <Card.Body>
         <Card.Title>Places To Stay</Card.Title>
         <Card.Text>
@@ -50,7 +55,7 @@ const Home = () =>{
     </Card>
     </div>
 
-    <div className='cards'>
+    <div className='cards' class='container'>
     <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src={EatImg} alt='' />
       <Card.Body>
@@ -64,9 +69,9 @@ const Home = () =>{
     </Card>
     </div>
 
-    <div className='cards'>
+    <div className='cards' class='container'>
     <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={TripImg} alt='' />
+      <Card.Img variant="top" src={TrainImg} alt='' />
       <Card.Body>
         <Card.Title>Trip Ideas</Card.Title>
         <Card.Text>
